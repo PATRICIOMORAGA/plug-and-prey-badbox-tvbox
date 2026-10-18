@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "Plug and Prey: a factory-backdoored Android TV box and its BadBox C2"
+message: "If you use this research, please cite it using the metadata from this file."
+type: report
+authors:
+  - family-names: Moraga
+    given-names: Patricio
+  - family-names: De La Paz
+    given-names: Anthony
+abstract: >-
+  Threat intelligence case study of a mass-market Allwinner Android TV box that
+  ships already rooted and already implanted. A BadBox-class command-and-control
+  client lives inside system_server, loaded from a framework image whose source
+  jar has been deleted; its operator address is Base64-, XOR-, and AES-encrypted
+  and assembled only in memory at call time. The public edition publishes
+  network indicators in defanged form and withholds cryptographic keys,
+  decrypted payloads, and device identifiers because the implant persists in
+  the field. Presented at ekoparty 2026.
+keywords:
+  - threat-intelligence
+  - badbox
+  - supply-chain
+  - android-tv
+  - command-and-control
+  - residential-proxy
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+date-released: "2026-10-18"
+conference:
+  name: ekoparty
+  year: 2026
